@@ -12,37 +12,30 @@
     <main class="head">
         <h1>To do list</h1>
     </main>
-    <section>
+       <section>
 
-
+        <!-- WORK SECTION -->
         <div class="work">
-
             <h3>WORK</h3>
-
+            <!-- Changed id from "workTask" to "task" -->
             <input type="text" id="task" placeholder="New task">
-
+            <!-- Changed id from "workDueDate" to "dueDate" -->
             <input type="date" id="dueDate">
-
             <button id="addTask">Add</button>
-
             <ol id="taskList"></ol>
-
         </div>
 
-     
+        <!-- HOME SECTION -->
         <div>
-
             <h3>HOME</h3>
-
             <input type="text" id="homeTask" placeholder="New task">
-            <input type="date" id="dueDate">
+            <!-- Removed the misplaced "dueDate" id from here -->
             <button id="homebtn">Add</button>
-
             <ol id="homeList"></ol>
-
         </div>
 
     </section>
+
     <script src="main.js"></script>
 </body>
 
