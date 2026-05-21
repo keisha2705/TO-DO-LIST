@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const addTaskBtn = document.getElementById('addTask');
     const taskList = document.getElementById('taskList');
     const dueDate = document.getElementById('dueDate');
+    const storage = 
 
     function createTask(taskText, dueDateValue, list) {
 
